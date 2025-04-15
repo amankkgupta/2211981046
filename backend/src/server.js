@@ -8,7 +8,7 @@ dotenv.config();
 app.use(cors());
 
 app.get("/",(req, res)=>{
-    res.send("Welcome, I am running");
+    res.send("Welcome");
 })
 app.use("/api/analytics", analyticsRoutes );
 
