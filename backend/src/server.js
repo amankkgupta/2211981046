@@ -5,8 +5,6 @@ const cors= require('cors');
 dotenv.config();
 app.use(cors());
 
-
-
 app.get("/",(req, res)=>{
     res.send("Welcome, I am running");
 })
