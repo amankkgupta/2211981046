@@ -1,7 +1,12 @@
+import TopUsers from "./pages/TopUsers";
+import TrendingPosts from "./pages/TrendingPosts";
+
 const App=()=>{
   return (
     <div>
-      <h1>hellow</h1>
+      <TopUsers/>
+      <TrendingPosts/>
+      <TrendingPosts/>
     </div>
   )
 }
